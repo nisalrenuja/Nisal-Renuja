@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="#">Avanoa</a>
+          Welcome to <a href="#">Fitness Plus</a>
         </h1>
         <p>Site is UnderConstruction</p>
       </main>
