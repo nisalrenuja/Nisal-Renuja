@@ -53,7 +53,7 @@ header{
 /* ======= SCROLL DOWN ======= */
 .scroll__down{
     position: absolute;
-    right: auto;
+    right: -0.01rem;
     bottom: 6.5rem;
     transform: rotate(90deg);
     font-weight: 300;
