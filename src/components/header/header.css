@@ -69,28 +69,28 @@ header{
 /* ===== MEDIA QUERY(MEDIUM DEVICES) ===== */
 @media screen and (max-width: 1024px){
     header{
-        height: 100vh;
+        height: 104vh;
     }
     .scroll__down{
-        position: absolute;
-    right: -0.01rem;
-    bottom: 6.5rem;
+    position: absolute;
+    right: -0.7rem;
+    bottom: 14.5rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
     }
      .header__socials{
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 5rem;
-    bottom: 3rem;
+    left: 1rem;
+    bottom: 13.5rem;
     }
     .hero{
-        font-size: 5.5rem;
-        margin-top: 3rem;
+        font-size: 3.5rem;
+        margin-top: 5rem;
         line-height: 0.8;
     }
 }
@@ -99,27 +99,27 @@ header{
 
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
+        height: 104vh;
     }
     .scroll__down{
     position: absolute;
-    right: -0.01rem;
-    bottom: 6.5rem;
+    right: -0.7rem;
+    bottom: 14.5rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
     }
      .header__socials{
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
     left: 1rem;
-    bottom: 2rem;
+    bottom: 13.5rem;
     }
     .hero{
-        font-size: 4rem;
+        font-size: 3.5rem;
         margin-top: 5rem;
         line-height: 0.8;
     }
