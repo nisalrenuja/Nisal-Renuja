@@ -122,6 +122,16 @@ img{
     section{
         margin-top: 6rem;
     }
+    h1,h2,h3,h4,h5{
+        font-weight: 900;
+    }
+    
+    h1{
+        font-size: 8rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
 }
     
 /* ===== MEDIA QUERY(SMALL DEVICES) ===== */
@@ -131,5 +141,15 @@ img{
     }
     section > h2{
         margin-bottom: 2rem;
+    }
+    h1,h2,h3,h4,h5{
+        font-weight: 900;
+    }
+    
+    h1{
+        font-size: 8rem;
+    }
+    h2{
+        font-size: 3.5rem;
     }
 }
