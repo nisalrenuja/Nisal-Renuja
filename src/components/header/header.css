@@ -89,19 +89,20 @@ header{
     bottom: 3rem;
     }
     .hero{
-        font-size: 5rem;
+        font-size: 5.5rem;
         margin-top: 3rem;
         line-height: 0.8;
     }
 }
 
 /* ===== MEDIA QUERY(SMALL DEVICES) ===== */
+
 @media screen and (max-width: 600px){
     header{
         height: 100vh;
     }
     .scroll__down{
-        position: absolute;
+    position: absolute;
     right: -0.01rem;
     bottom: 6.5rem;
     transform: rotate(90deg);
@@ -114,12 +115,12 @@ header{
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 5rem;
-    bottom: 3rem;
+    left: 1rem;
+    bottom: 2rem;
     }
     .hero{
-        font-size: 5rem;
-        margin-top: 3rem;
+        font-size: 4rem;
+        margin-top: 5rem;
         line-height: 0.8;
     }
 }
