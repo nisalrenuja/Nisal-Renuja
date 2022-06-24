@@ -39,13 +39,11 @@ const About = () => {
               <small>7</small>
             </div>
           
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem unde suscipit aspernatur animi, 
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem unde suscipit aspernatur animi, 
               voluptas ex asperiores dignissimos saepe esse laudantium! Modi repellat cum consectetur at sapiente itaque 
               odit vitae fugit.</p>
-
-           
-          </div>
-          <a href='#contact' className='btn btn-primary'>Contact Me</a>
+          {/* <a href='#contact' className='btn btn-primary'>Contact Me</a> */}
         </div>
      
       </div>
