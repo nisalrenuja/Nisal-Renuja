@@ -105,3 +105,30 @@
         margin: 1.5rem 0;
     }
 }
+
+@media screen and (max-width: 400px){
+    .about__container{
+        
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me{
+        width: 5%;
+        margin: 0 auto 1rem;
+    }
+
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+
+    .about__content {
+        text-align: center;
+    }
+
+    .about__content p{
+        margin: 1.5rem 0;
+    }
+}
