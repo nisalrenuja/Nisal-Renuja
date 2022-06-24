@@ -43,9 +43,11 @@ const About = () => {
               voluptas ex asperiores dignissimos saepe esse laudantium! Modi repellat cum consectetur at sapiente itaque 
               odit vitae fugit.</p>
 
-            <a href='#contact' className='btn btn-primary'>Contact Me</a>
+           
           </div>
+          <a href='#contact' className='btn btn-primary'>Contact Me</a>
         </div>
+     
       </div>
 
     </section>
