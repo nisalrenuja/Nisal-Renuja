@@ -25,19 +25,20 @@
 }
 
 .about__card{
-    background: var(--color-bg-varient);
+    background: transparent;
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
-    transition: var(--transition);
+    /* transition: var(--transition); */
+    cursor: default;
 }
 
-.about__card:hover{
+/* .about__card:hover{
     background: transparent;
     border-color: var(--color-bg-varient);
     cursor: default;
-}
+} */
 
 .about__icon{
     color: var(--color-primary);
@@ -80,6 +81,10 @@
 /* ===== MEDIA QUERY(SMALL DEVICES) ===== */
 
 @media screen and (max-width: 600px){
+    h5{
+        margin-top: 2rem;
+    }
+
     .about__container{
         
         grid-template-columns: 1fr;
