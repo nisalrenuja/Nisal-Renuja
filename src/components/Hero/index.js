@@ -17,22 +17,13 @@ const Hero = () => {
           DEVELOP.
         </div>
         <div className="small">
-          A{" "}
+          DESIGN{" "}
           <em>
-            good
             <br />
-            guy
+            AND
           </em>{" "}
-          who
           <br />
-          makes
-          <br />
-          <em>
-            good
-            <br />
-            websites
-          </em>
-          .
+          DEVELOP.
         </div>
       </Styled.Statement>
       <div className="container">
