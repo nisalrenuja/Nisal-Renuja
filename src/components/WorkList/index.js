@@ -6,8 +6,11 @@ import Pill from "../Pill";
 const WorkList = () => {
   return (
     <>
-      <Styled.SectionTitle>Projects</Styled.SectionTitle>
-      <Styled.StyledLink to="https://github.com/nisalrenuja" className="vice">
+      <Styled.SectionTitle>My Projects</Styled.SectionTitle>
+      <Styled.StyledLink
+        to="https://github.com/nisalrenuja/dictionary-app"
+        className="vice"
+      >
         <Styled.ImageWrapper>
           <StaticImage
             src="../../images/work_list/vice.png"
@@ -29,7 +32,7 @@ const WorkList = () => {
       <Styled.Masonry>
         <Styled.MasonryColumn>
           <Styled.StyledLink
-            to="https://github.com/nisalrenuja"
+            to="https://github.com/nisalrenuja/weather-app"
             className="cover"
           >
             {/* <Styled.ImageWrapper>
@@ -42,9 +45,13 @@ const WorkList = () => {
                             />
                         </Styled.ImageWrapper> */}
             <div>
-              <Styled.Title>Cover</Styled.Title>
-              <Styled.Dek>Split the check in seconds.</Styled.Dek>
-              <Pill>2015</Pill>
+              <Styled.Title>Weather App</Styled.Title>
+              <Styled.Dek>
+                web application to check the weather in a particular city or
+                country.
+              </Styled.Dek>
+              <Pill>React</Pill>
+              <Pill>Tailwind CSS</Pill>
             </div>
           </Styled.StyledLink>
         </Styled.MasonryColumn>
