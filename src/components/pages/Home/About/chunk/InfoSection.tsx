@@ -23,7 +23,11 @@ const InfoSection: FC = () => {
       <p>
         I'm currently working as a{' '}
         <span className="text-primary">Software Engineer </span> at{' '}
-        <a href="https://www.linkedin.com/company/derana-macroentertainment-pvt-ltd/">
+        <a
+          href="https://www.linkedin.com/company/derana-macroentertainment-pvt-ltd/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <span className="text-primary">Derana Macroentertainment</span>
         </a>
       </p>
